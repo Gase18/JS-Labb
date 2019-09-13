@@ -1,0 +1,35 @@
+/*...................Header...................*/
+header{
+	background-color: black;
+	height: 50px;
+}
+header h1{
+	padding-top: 5px;
+	text-align: center;
+	color: white;
+}
+
+/*...................body...................*/
+body{
+	max-width: 800px;
+	margin: auto;
+	text-align: center;
+}
+ul{
+	list-style-type: none;
+}
+
+@media(max-width: 800px){
+	body { 
+		background-color: red;
+	}
+	ul{
+		display: block;
+	}
+	h1{
+		text-align: center;
+	}
+	header{
+		max-width: 100%;
+	}
+}
